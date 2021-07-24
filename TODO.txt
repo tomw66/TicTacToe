@@ -1,0 +1,5 @@
+<h1>TO DO LIST</h1>
+<ul>
+<li>The round counting implementation feels clunky, and should really be private</li>
+<li>add AI for player vs. computer</li>
+<li>Update UI, with a scoreboard rather than alerts</li></ul>

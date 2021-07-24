@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="#" />
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div><form id="form">
+      <label for="teamX">Team x:</label>
+      <input type="text" id="teamX" name="teamX"> <br><br>
+      <label for="teamO">Team o:</label>
+      <input type="text" id="teamO" name="teamO"> <br>
+      <input type="submit" value="Submit" id="submit"><br><br>
+    </form>
+  <button id="restart" onclick="gameBoard.reset()">restart</button></div>
+    <div id="scoreboard"></div>
+    <div id="container">
+        <div class="panel" id="0"></div>
+        <div class="panel" id="1"></div>
+        <div class="panel" id="2"></div>
+        <div class="panel" id="3"></div>
+        <div class="panel" id="4"></div>
+        <div class="panel" id="5"></div>
+        <div class="panel" id="6"></div>
+        <div class="panel" id="7"></div>
+        <div class="panel" id="8"></div>
+    </div>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
